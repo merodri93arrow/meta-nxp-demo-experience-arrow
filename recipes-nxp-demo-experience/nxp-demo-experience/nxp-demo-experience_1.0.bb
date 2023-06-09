@@ -9,11 +9,11 @@ S = "${WORKDIR}/git"
 
 SRCBRANCH = "imx_5.10.y"
 
-NXP_DEMO_SRC ?= "git://github.com/nxp-imx-support/nxp-demo-experience.git;protocol=https"
-NXP_DEMO_LIST_SRC ?= "git://github.com/nxp-imx-support/nxp-demo-experience-demos-list.git;protocol=https"
+NXP_DEMO_SRC ?= "git://github.com/merodri93arrow/nxp-demo-experience-arrow.gitt;protocol=https"
+NXP_DEMO_LIST_SRC ?= "git://github.com/merodri93arrow/nxp-demo-experience-demos-list-arrow.git;protocol=https"
 
 SRC_URI = " \
-    ${NXP_DEMO_SRC};branch=${SRCBRANCH};name=nxp-demo-experience \
+    ${NXP_DEMO_SRC};branch=${SRCBRANCH};name=nxp-demo-experience-arrow \
     ${NXP_DEMO_LIST_SRC};branch=${SRCBRANCH};destsuffix=demos;name=demos "
 
 SRCREV_FORMAT = "nxp-demo-experience_demos"
