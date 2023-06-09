@@ -9,7 +9,7 @@ S = "${WORKDIR}/git"
 
 SRCBRANCH = "imx_5.10.y"
 
-NXP_DEMO_SRC ?= "git://github.com/merodri93arrow/nxp-demo-experience-arrow.gitt;protocol=https"
+NXP_DEMO_SRC ?= "git://github.com/merodri93arrow/nxp-demo-experience-arrow.git;protocol=https"
 NXP_DEMO_LIST_SRC ?= "git://github.com/merodri93arrow/nxp-demo-experience-demos-list-arrow.git;protocol=https"
 
 SRC_URI = " \
