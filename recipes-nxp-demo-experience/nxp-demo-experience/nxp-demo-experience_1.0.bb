@@ -9,16 +9,18 @@ S = "${WORKDIR}/git"
 
 SRCBRANCH = "imx_5.10.y"
 
+
 NXP_DEMO_SRC ?= "git://github.com/merodri93arrow/nxp-demo-experience-arrow.git;protocol=https"
 NXP_DEMO_LIST_SRC ?= "git://github.com/merodri93arrow/nxp-demo-experience-demos-list-arrow.git;protocol=https"
 
 SRC_URI = " \
-    ${NXP_DEMO_SRC};branch=${SRCBRANCH};name=nxp-demo-experience-arrow \
+    ${NXP_DEMO_SRC};branch=${SRCBRANCH};name=nxp-demo-experience \
     ${NXP_DEMO_LIST_SRC};branch=${SRCBRANCH};destsuffix=demos;name=demos "
 
 SRCREV_FORMAT = "nxp-demo-experience_demos"
-SRCREV_nxp-demo-experience = "3615aa6c36f86b71cb2fc8b408579fd35aa328b4"
-SRCREV_demos = "9cc75900b3319c84325b739ef11b966bab024834"
+SRCREV_nxp-demo-experience = "af4f719ac367917cac613a6c808418726a26bf2d"
+SRCREV_demos = "7fdfab118be31a323a0a688e0efd1dcde8f03de9"
+
 
 inherit qmake5
 
